@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
   width:100%; /* IE */
   max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -263,6 +263,81 @@ section a {
   color: #555;
   text-decoration: underline;
 }
+
+.col-1 {
+  background: #fff;
+  display: block;
+  float: left;
+  width: 64%;
+  height: 38em;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  overflow: auto;
+}
+
+.col-2 {
+  background: #fff;
+  display: block;
+  float: right;
+  width: 34%;
+  height: 38em;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  overflow: auto;
+
+}
+
+.clearfix::after {
+  content: ".";
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.dealtable {
+}
+
+.td-1 {
+  padding-left: 0;
+  width: 33%;
+  border-style: hidden;
+}
+
+.td-2 {
+  width: 33%;
+  border-style: hidden;
+}
+
+.td-3 {
+  padding-right: 0;
+  width: 33%;
+  border-style: hidden;
+}
+
+.cd-1{
+  border-style: dashed;
+  border-top: hidden;
+  border-bottom: hidden;
+  border-left: hidden;
+  height: 10em;
+}
+
+.cd-2{
+  height: 10em;
+  border-style: dashed;
+  border-top: hidden;
+  border-bottom: hidden;
+}
+
+.cd-3{
+  height: 10em;
+  border-style: dashed;
+  border-right: hidden;
+  border-top: hidden;
+  border-bottom: hidden;
+}
+
 
 /********** Details **********/
 
