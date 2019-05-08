@@ -112,6 +112,11 @@ iframe {
 
 .shadow {
   box-shadow: 0 3px 10px #333;
+  margin-bottom: 1.5em;
+}
+
+#logo.shadow {
+    margin-bottom: 0;
 }
 
 .milk_text {
@@ -262,6 +267,10 @@ section {
 section a {
   color: #555;
   text-decoration: underline;
+}
+
+#featured-brands, #archive-list {
+    min-height: 615px;
 }
 
 /********** Details **********/
