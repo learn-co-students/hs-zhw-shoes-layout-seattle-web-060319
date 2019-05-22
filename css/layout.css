@@ -23,5 +23,24 @@
 }
 
 /* Positioning Classes */
+.col3 {
+  column-count: 3;
+  column-gap: 30px;
+}
 
+div.col3.shoes {
+  margin-top: 30px;
+  column-count: 3;
+  column-gap: 30px;
+  display: inline-block;
+}
 
+#feature {
+  width: 65.666%;
+  float:left;
+}
+
+#archive {
+  width: 31.2%;
+  float:right;
+}
